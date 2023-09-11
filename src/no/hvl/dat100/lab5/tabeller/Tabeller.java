@@ -6,7 +6,7 @@ public class Tabeller {
 	public static void skrivUt(int[] tabell) {
 
 		// TODO
-		throw new UnsupportedOperationException("skrivUt ikke implementert");
+		throw new UnsupportedOperationException("Metoden skrivUt ikke implementert");
 
 	}
 
@@ -14,7 +14,7 @@ public class Tabeller {
 	public static String tilStreng(int[] tabell) {
 
 		// TODO
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
+		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
 		
 	}
 
@@ -22,21 +22,21 @@ public class Tabeller {
 	public static int summer(int[] tabell) {
 
 		// TODO
-		throw new UnsupportedOperationException("summer ikke implementert");
+		throw new UnsupportedOperationException("Metoden summer ikke implementert");
 	}
 
 	// d)
 	public static boolean finnesTall(int[] tabell, int tall) {
 
 		// TODO
-		throw new UnsupportedOperationException("finnesTall ikke implementert");
+		throw new UnsupportedOperationException("Metoden finnesTall ikke implementert");
 	}
 
 	// e)
 	public static int posisjonTall(int[] tabell, int tall) {
 
 		// TODO
-		throw new UnsupportedOperationException("posisjonTall ikke implementert");
+		throw new UnsupportedOperationException("Metoden posisjonTall ikke implementert");
 
 	}
 
@@ -44,7 +44,7 @@ public class Tabeller {
 	public static int[] reverser(int[] tabell) {
 
 		// TODO
-		throw new UnsupportedOperationException("reverser ikke implementert");
+		throw new UnsupportedOperationException("Metoden reverser ikke implementert");
 		
 	}
 
@@ -52,13 +52,13 @@ public class Tabeller {
 	public static boolean erSortert(int[] tabell) {
 
 		// TODO
-		throw new UnsupportedOperationException("erSortert ikke implementert");
+		throw new UnsupportedOperationException("Metoden erSortert ikke implementert");
 	}
 
 	// h)
 	public static int[] settSammen(int[] tabell1, int[] tabell2) {
 
 		// TODO
-		throw new UnsupportedOperationException("settSammen ikke implementert");
+		throw new UnsupportedOperationException("Metoden settSammen ikke implementert");
 	}
 }

@@ -90,6 +90,7 @@ class MatriserEnhetsTester {
 	void testerLik() {
 		
 		assertTrue(Matriser.erLik(a, a));
+		
 		assertFalse(Matriser.erLik(a, b));
 	}
 }

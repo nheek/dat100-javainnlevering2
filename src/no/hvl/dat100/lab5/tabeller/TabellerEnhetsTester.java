@@ -48,19 +48,23 @@ class TabellerEnhetsTester {
 
 	@Test
 	void testSummer() {
+		
 		assertEquals(11, Tabeller.summer(tabell1));
 		assertEquals(1, Tabeller.summer(tabell2));
 		assertEquals(0, Tabeller.summer(tabell3));
+		
 	}
 
 	@Test
 	void testfinnesTall() {
+		
 		assertTrue(Tabeller.finnesTall(tabell1, 1));
 		assertTrue(Tabeller.finnesTall(tabell1, 4));
 		assertTrue(Tabeller.finnesTall(tabell1, 6));
 
 		assertFalse(Tabeller.finnesTall(tabell1, 7));
 		assertFalse(Tabeller.finnesTall(tabell3, 7));
+		
 	}
 
 	@Test
@@ -92,6 +96,7 @@ class TabellerEnhetsTester {
 		
 		assertFalse(tabell1 == reversert1);
 		assertArrayEquals(tabell3, reversert3);
+		
 	}
 
 	@Test
@@ -104,6 +109,7 @@ class TabellerEnhetsTester {
 		assertTrue(Tabeller.erSortert(tabell3));
 
 		assertFalse(Tabeller.erSortert(tabell));
+		
 	}
 
 	@Test
@@ -114,5 +120,6 @@ class TabellerEnhetsTester {
 		assertArrayEquals(tabell, Tabeller.settSammen(tabell2, tabell1));
 		assertArrayEquals(tabell1, Tabeller.settSammen(tabell3, tabell1));
 		assertArrayEquals(tabell1, Tabeller.settSammen(tabell1, tabell3));
+		
 	}
 }
