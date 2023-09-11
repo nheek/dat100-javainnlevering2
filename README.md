@@ -7,11 +7,11 @@ Denne oppbevaringsplasssen inneholder startkode og enhetstester for den obligato
 
 ### Tilgang og importering av startkoden
 
-Begynn med å opprette en kopi av denne oppbevaringsplassen ved å bruke "fork" (se øverste høyre hjørne på github-websiden). Du vil da få en kopi av oppbevaringsplassen med start-koden på den egen github konto.
+Begynn med å opprette en kopi av denne oppbevaringsplassen ved å bruke "Use this template" (se øverste høyre hjørne på github-websiden). Du vil da få en kopi av oppbevaringsplassen med start-koden på den egen github konto.
 
 Du kan nå clone denne kopien ned på egen PC og importere prosjektet med start-koden inn i Eclipse. Prossesen for import er den samme som for å importere eksemplene som ligger i oppbevaringsplassen for eksempler fra undervisning.
 
-Se også videoen om Git Clone på Canvas.
+Se også videoen om å hente start-kode på Canvas.
 
 ### Startkode og enhetstest
 
@@ -27,4 +27,4 @@ Den ferdige Java-koden må legges opp (push) på github og en URL til oppbevarin
 
 ### Tilgang til koden for andre i gruppen
 
-Kun en person i gruppen skal utføre en fork på start-koden. Den som har utført kan gi tilgang til oppbevaringsplassen til de andre i gruppen ved å bruke *Settings* og *Manage Access* på github.
+Kun en person i gruppen skal utføre en "Use as template" på start-koden. Den som har utført kan gi tilgang til oppbevaringsplassen til de andre i gruppen ved å bruke *Settings* og *Manage Access* på github.
